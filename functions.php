@@ -12,7 +12,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Prise en charge des fonctionnalités du thème.
+ * Configure les fonctionnalités du thème (FSE).
+ *
+ * Charge les traductions, active les styles de blocs, alignement large,
+ * embeds responsives, styles éditeur et miniatures. Désactive les patterns
+ * du cœur et les patterns distants (Pattern Directory).
+ *
+ * @since 1.0.0
  */
 function wc_nice_setup() {
 	// Load theme textdomain for translations.
@@ -44,7 +50,12 @@ add_action( 'after_setup_theme', 'wc_nice_setup' );
 
 
 /**
- * Block pattern categories for WordCamp management.
+ * Enregistre les catégories de compositions (block patterns) du thème.
+ *
+ * Catégories : page (contenu de départ), WordCamp (sponsors, programme,
+ * équipe, speakers, infos pratiques, CTA, hero), WooCommerce.
+ *
+ * @since 1.0.0
  */
 add_action( 'init', function () {
 	// Catégorie pour les compositions de type page (Contenu de départ, À propos, Contact).
@@ -122,7 +133,16 @@ add_action( 'init', function () {
 } );
 
 
-add_action( 'init', 'wc_nice_conditional_patterns', 999 );
+/**
+ * Enregistre ou désenregistre des patterns selon la présence de WooCommerce.
+ *
+ * - Désenregistre « woocommerce-product-grid » si WooCommerce est inactif.
+ * - Enregistre « woocommerce-product-featured » uniquement si WooCommerce est actif.
+ *
+ * Priorité 999 pour s’exécuter après l’enregistrement des patterns du thème.
+ *
+ * @since 1.0.0
+ */
 function wc_nice_conditional_patterns() {
     // Désactiver un pattern si WooCommerce n'est pas actif
     if ( ! class_exists( 'WooCommerce' ) ) {
