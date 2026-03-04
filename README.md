@@ -60,6 +60,9 @@ wc-nice/
 └── README.md         # Ce fichier
 ```
 
+**Limitation FSE (templates HTML)**  
+Les templates dans `templates/*.html` sont des fichiers HTML purs (sans PHP). Le message affiché lorsqu'il n'y a aucun article (« Aucun article pour le moment. » dans `templates/index.html`, bloc query-no-results) n'est donc pas traduisible via le système i18n WordPress. C'est une contrainte connue des thèmes bloc FSE ; pour une chaîne traduisible, il faudrait recourir à un bloc dynamique personnalisé.
+
 ---
 
 ## Compositions et contenu de la conférence
