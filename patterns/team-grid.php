@@ -38,15 +38,15 @@ $features = array(
             <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <div class="wp-block-group">
             <!-- wp:heading {"textAlign":"center","level":3} -->
-            <h3 class="wp-block-heading has-text-align-center"><?php esc_html_e( $feature['name'], 'wc-nice' ); ?></h3>
+            <h3 class="wp-block-heading has-text-align-center"><?php echo esc_html( $feature['name'] ); ?></h3>
             <!-- /wp:heading -->
             
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center has-small-font-size"><em><?php esc_html_e( $feature['role'], 'wc-nice' ); ?></em></p>
+            <p class="has-text-align-center has-small-font-size"><em><?php echo esc_html( $feature['role'] ); ?></em></p>
             <!-- /wp:paragraph -->
             
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center"><?php esc_html_e( $feature['bio'], 'wc-nice' ); ?></p>
+            <p class="has-text-align-center"><?php echo esc_html( $feature['bio'] ); ?></p>
             <!-- /wp:paragraph -->
         </div>
     <!-- /wp:group -->
