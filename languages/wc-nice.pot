@@ -1,0 +1,970 @@
+# Copyright (C) 2026 WeAre[WP]
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Nice 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wc-nice\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-04T09:06:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wc-nice\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "WC Nice"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://nice.wordcamp.org/2026/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Thème bloc FSE minimal pour WordPress. Base vierge pour personnalisation via l’éditeur de site (Full Site Editing)."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "WeAre[WP]"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.wearewp.pro"
+msgstr ""
+
+#: functions.php:54
+msgid "Contenu de départ"
+msgstr ""
+
+#: functions.php:55
+msgid "Starter page layouts: about, contact, etc."
+msgstr ""
+
+#: functions.php:62
+msgid "WordCamp - Sponsors"
+msgstr ""
+
+#: functions.php:63
+msgid "Blocks and layouts to showcase WordCamp sponsors."
+msgstr ""
+
+#: functions.php:70
+msgid "WordCamp - Schedule"
+msgstr ""
+
+#: functions.php:71
+msgid "Layouts for the programme, timetable and sessions."
+msgstr ""
+
+#: functions.php:78
+msgid "WordCamp - Team"
+msgstr ""
+
+#: functions.php:79
+msgid "Present the WordCamp organising team."
+msgstr ""
+
+#: functions.php:86
+msgid "WordCamp - Speakers"
+msgstr ""
+
+#: functions.php:87
+msgid "Cards and lists for speakers and presenters."
+msgstr ""
+
+#: functions.php:94
+msgid "WordCamp - Practical info"
+msgstr ""
+
+#: functions.php:95
+msgid "Venue, access, accommodation and practical information."
+msgstr ""
+
+#: functions.php:102
+msgid "WordCamp - Calls to action"
+msgstr ""
+
+#: functions.php:103
+msgid "Banners and blocks for registration, ticketing and partnership."
+msgstr ""
+
+#: functions.php:110
+msgid "WordCamp - Hero / Home"
+msgstr ""
+
+#: functions.php:111
+msgid "Headers and hero sections for the WordCamp homepage."
+msgstr ""
+
+#: patterns/cover-cta.php
+msgctxt "Pattern title"
+msgid "Cover — Call to action"
+msgstr ""
+
+#: patterns/cover-cta.php
+msgctxt "Pattern description"
+msgid "Cover banner with heading and action button"
+msgstr ""
+
+#: patterns/cover-cta.php:17
+msgid "Ready to get started?"
+msgstr ""
+
+#: patterns/cover-cta.php:21
+msgid "Join us and be part of the adventure. Spots are limited."
+msgstr ""
+
+#: patterns/cover-cta.php:27
+msgid "Get started now"
+msgstr ""
+
+#: patterns/cover-testimonial.php
+msgctxt "Pattern title"
+msgid "Cover — Témoignage"
+msgstr ""
+
+#: patterns/cover-testimonial.php
+msgctxt "Pattern description"
+msgid "Bannière cover avec un témoignage client"
+msgstr ""
+
+#: patterns/cover-testimonial.php:21
+msgid "This event truly changed the way I think about WordPress. Incredible speakers and a warm community."
+msgstr ""
+
+#: patterns/cover-testimonial.php:22
+msgid "Marie D., Developer"
+msgstr ""
+
+#: patterns/cta-newsletter.php
+msgctxt "Pattern title"
+msgid "CTA — WordCamp newsletter"
+msgstr ""
+
+#: patterns/cta-newsletter.php
+msgctxt "Pattern description"
+msgid "Newsletter signup banner with days-until-event countdown"
+msgstr ""
+
+#. translators: %d: number of days
+#: patterns/cta-newsletter.php:18
+msgid "%d day left"
+msgid_plural "%d days left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: patterns/cta-newsletter.php:35
+msgid "Don't miss WordCamp Nice 2025"
+msgstr ""
+
+#: patterns/cta-newsletter.php:39
+msgid "Get notified when tickets go on sale. Be the first to know about speakers and the schedule."
+msgstr ""
+
+#: patterns/cta-newsletter.php:45
+msgid "Subscribe to the newsletter"
+msgstr ""
+
+#: patterns/footer-minimal.php
+msgctxt "Pattern title"
+msgid "Footer minimal"
+msgstr ""
+
+#. translators: %s: current year
+#: patterns/footer-minimal.php:34
+msgid "© %s WC Nice — Built with WordPress by WeAre[WP]"
+msgstr ""
+
+#: patterns/header-centered.php
+msgctxt "Pattern title"
+msgid "Header centré — Fond sombre"
+msgstr ""
+
+#: patterns/header-centered.php
+msgctxt "Pattern description"
+msgid "Titre centré + navigation centrée sur fond sombre"
+msgstr ""
+
+#: patterns/header-split.php
+msgctxt "Pattern title"
+msgid "Header split — Fond clair"
+msgstr ""
+
+#: patterns/header-split.php
+msgctxt "Pattern description"
+msgid "Logo à gauche, navigation à droite sur fond clair avec bordure"
+msgstr ""
+
+#: patterns/header-with-button.php
+msgctxt "Pattern title"
+msgid "Header CTA — Fond bleu"
+msgstr ""
+
+#: patterns/header-with-button.php
+msgctxt "Pattern description"
+msgid "Logo à gauche, navigation + bouton d'action sur fond bleu primaire"
+msgstr ""
+
+#: patterns/header-with-button.php:24
+#: patterns/wordcamp-cta-tickets.php:19
+#: patterns/wordcamp-hero-event.php:73
+msgid "Get your ticket"
+msgstr ""
+
+#: patterns/hero-avec-image-assets.php
+msgctxt "Pattern title"
+msgid "Hero with image from assets"
+msgstr ""
+
+#: patterns/hero-avec-image-i18n.php
+msgctxt "Pattern title"
+msgid "Hero with image and i18n"
+msgstr ""
+
+#: patterns/hero-avec-image-i18n.php:10
+#: patterns/hero-avec-image-i18n.php:11
+msgid "Smiling woman from Nice holding a laptop with the WordPress logo on the Promenade des Anglais"
+msgstr ""
+
+#: patterns/hero-avec-image-i18n.php:19
+#: patterns/hero-i18n.php:14
+#: patterns/hero-static-loop.php:8
+msgid "Welcome to WordCamp Nice"
+msgstr ""
+
+#: patterns/hero-avec-image-i18n.php:23
+msgid "Join the WordPress community on the French Riviera for a day of talks, workshops, and networking."
+msgstr ""
+
+#: patterns/hero-avec-image-i18n.php:27
+msgid "Nicæa civitas fidelissima"
+msgstr ""
+
+#: patterns/hero-avec-image.php
+msgctxt "Pattern title"
+msgid "Hero with image"
+msgstr ""
+
+#: patterns/hero-complet.php
+msgctxt "Pattern title"
+msgid "Hero full"
+msgstr ""
+
+#: patterns/hero-complet.php:18
+msgid "Discover our services"
+msgstr ""
+
+#: patterns/hero-complet.php:22
+#: patterns/starter-page-contact.php:16
+msgid "Contact us"
+msgstr ""
+
+#: patterns/hero-complet.php:27
+#: patterns/hero-complet.php:30
+msgid "Background image"
+msgstr ""
+
+#: patterns/hero-complet.php:34
+msgid "Welcome to our agency"
+msgstr ""
+
+#: patterns/hero-complet.php:38
+msgid "Your trusted partner since 2010"
+msgstr ""
+
+#: patterns/hero-i18n.php
+msgctxt "Pattern title"
+msgid "Hero i18n"
+msgstr ""
+
+#: patterns/hero-i18n.php:18
+#: patterns/hero-static-loop.php:9
+msgid "Join the WordPress community on the French Riviera for a day of talks, workshops, and networking. WordCamp Nice brings together developers, designers, and users in one of the Mediterranean's most vibrant cities."
+msgstr ""
+
+#: patterns/hero-i18n.php:24
+#: patterns/hero-static-loop.php:12
+msgid "Register"
+msgstr ""
+
+#: patterns/hero-i18n.php:27
+#: patterns/hero-static-loop.php:13
+msgid "Sponsor the event"
+msgstr ""
+
+#: patterns/hero-static-loop.php
+msgctxt "Pattern title"
+msgid "Hero static loop"
+msgstr ""
+
+#: patterns/hero-static.php
+msgctxt "Pattern title"
+msgid "Hero static"
+msgstr ""
+
+#: patterns/hero.php
+msgctxt "Pattern title"
+msgid "Hero"
+msgstr ""
+
+#: patterns/hidden-template-home.php
+msgctxt "Pattern title"
+msgid "Home template"
+msgstr ""
+
+#: patterns/hidden-template-home.php:21
+msgid "Latest posts"
+msgstr ""
+
+#: patterns/query-cards.php
+msgctxt "Pattern title"
+msgid "Query — Cards avec image"
+msgstr ""
+
+#: patterns/query-cards.php
+msgctxt "Pattern description"
+msgid "Grille de 3 articles en cards avec image, titre et extrait"
+msgstr ""
+
+#: patterns/query-cards.php:40
+msgid "No posts found."
+msgstr ""
+
+#: patterns/query-grid.php
+msgctxt "Pattern title"
+msgid "Query Grid 6 posts"
+msgstr ""
+
+#: patterns/query-schedule.php
+msgctxt "Pattern title"
+msgid "Query — Conference schedule"
+msgstr ""
+
+#: patterns/query-schedule.php
+msgctxt "Pattern description"
+msgid "Conference schedule list with title, time and excerpt"
+msgstr ""
+
+#: patterns/query-schedule.php:16
+#: patterns/wordcamp-programme-timeline.php:14
+msgid "Schedule"
+msgstr ""
+
+#: patterns/query-schedule.php:20
+msgid "A full day of WordPress talks and workshops."
+msgstr ""
+
+#: patterns/query-schedule.php:50
+msgid "The schedule will be announced soon."
+msgstr ""
+
+#: patterns/starter-page-about.php
+msgctxt "Pattern title"
+msgid "Page À propos"
+msgstr ""
+
+#: patterns/starter-page-about.php
+msgctxt "Pattern description"
+msgid "Structure de départ pour une page À propos"
+msgstr ""
+
+#: patterns/starter-page-about.php:18
+msgid "About us"
+msgstr ""
+
+#: patterns/starter-page-about.php:22
+msgid "Discover our story and our team."
+msgstr ""
+
+#: patterns/starter-page-about.php:38
+msgid "Our mission"
+msgstr ""
+
+#: patterns/starter-page-about.php:46
+msgid "Add your mission description here. Explain what drives your organization and how you create value for your community."
+msgstr ""
+
+#: patterns/starter-page-about.php:50
+msgid "Add a second paragraph to detail your approach, your values, and what makes you unique."
+msgstr ""
+
+#: patterns/starter-page-about.php:65
+msgid "Our team"
+msgstr ""
+
+#: patterns/starter-page-contact.php
+msgctxt "Pattern title"
+msgid "Page Contact"
+msgstr ""
+
+#: patterns/starter-page-contact.php
+msgctxt "Pattern description"
+msgid "Structure de départ pour une page Contact"
+msgstr ""
+
+#: patterns/starter-page-contact.php:20
+msgid "A question? A project? We would love to hear from you."
+msgstr ""
+
+#: patterns/starter-page-contact.php:38
+msgid "📍 Address"
+msgstr ""
+
+#: patterns/starter-page-contact.php:42
+msgid "123 Promenade des Anglais, 06000 Nice"
+msgstr ""
+
+#: patterns/starter-page-contact.php:56
+msgid "📧 Email"
+msgstr ""
+
+#: patterns/starter-page-contact.php:60
+msgid "hello@example.com"
+msgstr ""
+
+#: patterns/starter-page-contact.php:74
+msgid "📞 Phone"
+msgstr ""
+
+#: patterns/starter-page-contact.php:78
+msgid "+33 4 00 00 00 00"
+msgstr ""
+
+#: patterns/team-grid.php
+msgctxt "Pattern title"
+msgid "Team — Grid"
+msgstr ""
+
+#: patterns/team-grid.php:12
+#: patterns/wordcamp-team-speakers.php:14
+msgid "John Doe"
+msgstr ""
+
+#: patterns/team-grid.php:13
+msgid "Developer"
+msgstr ""
+
+#: patterns/team-grid.php:14
+msgid "John is a developer who loves to code and build things."
+msgstr ""
+
+#: patterns/team-grid.php:18
+#: patterns/wordcamp-team-speakers.php:20
+msgid "Jane Doe"
+msgstr ""
+
+#: patterns/team-grid.php:19
+msgid "Designer"
+msgstr ""
+
+#: patterns/team-grid.php:20
+msgid "Jane is a designer who loves to design and build things."
+msgstr ""
+
+#: patterns/team-grid.php:24
+#: patterns/wordcamp-team-speakers.php:26
+msgid "Jim Doe"
+msgstr ""
+
+#: patterns/team-grid.php:25
+msgid "Manager"
+msgstr ""
+
+#: patterns/team-grid.php:26
+msgid "Jim is a manager who loves to manage and build things."
+msgstr ""
+
+#: patterns/wordcamp-cta-tickets.php
+msgctxt "Pattern title"
+msgid "CTA — Tickets"
+msgstr ""
+
+#: patterns/wordcamp-cta-tickets.php
+msgctxt "Pattern description"
+msgid "Ticket purchase / registration call to action"
+msgstr ""
+
+#: patterns/wordcamp-cta-tickets.php:23
+msgid "Tickets are free. Register now to secure your spot and get updates about the schedule and speakers."
+msgstr ""
+
+#: patterns/wordcamp-cta-tickets.php:29
+msgid "Register for free"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php
+msgctxt "Pattern title"
+msgid "Hero — Event"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php
+msgctxt "Pattern description"
+msgid "Event page starter with date, venue and action buttons"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:16
+msgid "March 6, 2026"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:20
+msgid "Nîmes, France"
+msgstr ""
+
+#. translators: %d: number of speakers
+#: patterns/wordcamp-hero-event.php:26
+msgid "%d speakers"
+msgstr ""
+
+#. translators: %d: number of attendees
+#: patterns/wordcamp-hero-event.php:34
+msgid "%d attendees"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:49
+#: patterns/wordcamp-hero-minimal.php:19
+msgid "WordCamp Nice 2025"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:53
+msgid "The WordPress community meets on the French Riviera for a full day of talks, workshops, and networking."
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:76
+msgid "View the schedule"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:92
+msgid "What to expect"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:101
+msgid "🎙 Talks"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:104
+msgid "Inspiring sessions from WordPress experts covering development, design, and business."
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:112
+msgid "🛠 Workshops"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:115
+msgid "Hands-on sessions to level up your skills with block themes, patterns, and more."
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:123
+msgid "🤝 Networking"
+msgstr ""
+
+#: patterns/wordcamp-hero-event.php:126
+msgid "Meet the community, connect with professionals, and share your passion for WordPress."
+msgstr ""
+
+#: patterns/wordcamp-hero-minimal.php
+msgctxt "Pattern title"
+msgid "Hero — Minimal"
+msgstr ""
+
+#: patterns/wordcamp-hero-minimal.php
+msgctxt "Pattern description"
+msgid "Minimal hero with title, subtitle and one CTA"
+msgstr ""
+
+#: patterns/wordcamp-hero-minimal.php:23
+msgid "One day. One community. One WordPress."
+msgstr ""
+
+#: patterns/wordcamp-hero-minimal.php:29
+msgid "View schedule"
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php
+msgctxt "Pattern title"
+msgid "Practical info — Getting there"
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php
+msgctxt "Pattern description"
+msgid "Transport and access options (tram, bus, parking)"
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:14
+msgid "Getting there"
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:18
+msgid "How to reach the venue by public transport or car."
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:26
+msgid "Tram / Light rail"
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:29
+msgid "Line 1 — Stop « Example ». 5 min on foot."
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:36
+msgid "Bus"
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:39
+msgid "Lines 12, 17 — Stop near the venue."
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:46
+msgid "Parking"
+msgstr ""
+
+#: patterns/wordcamp-practical-getting-there.php:49
+msgid "Paid parking nearby. Prefer public transport."
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php
+msgctxt "Pattern title"
+msgid "Practical info — Venue"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php
+msgctxt "Pattern description"
+msgid "Venue and location block with address and map placeholder"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:14
+msgid "Venue"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:22
+msgid "Address"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:25
+msgid "Venue name"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:25
+msgid "123 Example Street"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:25
+msgid "06000 Nice, France"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:28
+msgid "When"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:31
+msgid "Friday, March 6, 2026 — 9:00 to 18:00"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:38
+msgid "Map or venue photo"
+msgstr ""
+
+#: patterns/wordcamp-practical-venue.php:41
+msgid "Add a map embed or venue image."
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php
+msgctxt "Pattern title"
+msgid "Programme — Timeline"
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php
+msgctxt "Pattern description"
+msgid "Simple timeline layout for conference sessions"
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php:18
+msgid "A full day of talks and workshops."
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php:29
+msgid "Doors open & registration"
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php:44
+msgid "Opening keynote"
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php:47
+msgid "Main track — Welcome and state of WordPress."
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php:62
+msgid "Session block 1"
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php:65
+msgid "Two parallel tracks — add your session titles here."
+msgstr ""
+
+#: patterns/wordcamp-programme-timeline.php:73
+msgid "Replace with Query Loop or custom content for your real schedule."
+msgstr ""
+
+#: patterns/wordcamp-speakers-list.php
+msgctxt "Pattern title"
+msgid "Speakers — Simple list"
+msgstr ""
+
+#: patterns/wordcamp-speakers-list.php
+msgctxt "Pattern description"
+msgid "Simple list of speakers with talk titles"
+msgstr ""
+
+#: patterns/wordcamp-speakers-list.php:14
+msgid "Speakers"
+msgstr ""
+
+#: patterns/wordcamp-speakers-list.php:18
+msgid "Experts and practitioners sharing their experience at WordCamp Nice."
+msgstr ""
+
+#: patterns/wordcamp-speakers-list.php:23
+#: patterns/wordcamp-speakers-list.php:27
+#: patterns/wordcamp-speakers-list.php:31
+msgid "Speaker name"
+msgstr ""
+
+#: patterns/wordcamp-speakers-list.php:23
+#: patterns/wordcamp-speakers-list.php:27
+#: patterns/wordcamp-speakers-list.php:31
+msgid "Talk title or short bio"
+msgstr ""
+
+#: patterns/wordcamp-speakers-list.php:36
+msgid "Replace with a Query Loop (custom post type) or use the Speakers grid pattern for cards with photos."
+msgstr ""
+
+#: patterns/wordcamp-sponsor-grid.php
+msgctxt "Pattern title"
+msgid "Sponsor — Grid"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-grid.php
+msgctxt "Pattern description"
+msgid "Sponsor grid with tier heading and logo placeholders"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-grid.php:14
+msgid "Our sponsors"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-grid.php:18
+msgid "Thank you to the companies that make WordCamp Nice possible."
+msgstr ""
+
+#: patterns/wordcamp-sponsor-grid.php:22
+#: patterns/wordcamp-sponsor-tiers.php:22
+msgid "Platinum"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-grid.php:30
+#: patterns/wordcamp-sponsor-grid.php:37
+#: patterns/wordcamp-sponsor-grid.php:53
+#: patterns/wordcamp-sponsor-grid.php:60
+#: patterns/wordcamp-sponsor-grid.php:67
+msgid "Sponsor logo"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-grid.php:45
+#: patterns/wordcamp-sponsor-tiers.php:42
+msgid "Gold"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php
+msgctxt "Pattern title"
+msgid "Sponsor — Tiers"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php
+msgctxt "Pattern description"
+msgid "Sponsor tiers with benefits and CTA to become a sponsor"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:12
+msgid "Sponsor WordCamp Nice"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:16
+msgid "Partner with us and reach the WordPress community on the French Riviera."
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:27
+msgid "Logo on website & stage"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:31
+msgid "Booth space"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:35
+msgid "5 tickets included"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:47
+#: patterns/wordcamp-sponsor-tiers.php:67
+msgid "Logo on website"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:51
+msgid "Mention in newsletter"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:55
+msgid "2 tickets included"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:62
+msgid "Silver"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:71
+msgid "Social mention"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:75
+msgid "1 ticket included"
+msgstr ""
+
+#: patterns/wordcamp-sponsor-tiers.php:83
+msgid "Become a sponsor"
+msgstr ""
+
+#: patterns/wordcamp-team-organisers.php
+msgctxt "Pattern title"
+msgid "Team — Organisers intro"
+msgstr ""
+
+#: patterns/wordcamp-team-organisers.php
+msgctxt "Pattern description"
+msgid "Intro section for the organising team with CTA to join"
+msgstr ""
+
+#: patterns/wordcamp-team-organisers.php:14
+msgid "Meet the organisers"
+msgstr ""
+
+#: patterns/wordcamp-team-organisers.php:18
+msgid "WordCamp Nice is run by local volunteers from the WordPress community. We organise the event, choose the programme, and make sure everyone has a great day."
+msgstr ""
+
+#: patterns/wordcamp-team-organisers.php:22
+msgid "Add a Team grid or Speaker-style pattern below to showcase faces and roles."
+msgstr ""
+
+#: patterns/wordcamp-team-organisers.php:28
+msgid "Join the team"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php
+msgctxt "Pattern title"
+msgid "Speakers — Conference grid"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php
+msgctxt "Pattern description"
+msgid "Speaker grid with photo, name, role and talk title"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:15
+msgid "Developer @Automattic"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:16
+msgid "Block Patterns: From Zero to Hero"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:21
+msgid "Designer Freelance"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:22
+msgid "Design Systems with theme.json"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:27
+msgid "Agency Owner"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:28
+msgid "Scaling WordPress for Enterprise"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:36
+msgid "Our speakers"
+msgstr ""
+
+#: patterns/wordcamp-team-speakers.php:40
+msgid "Discover the experts who will share their knowledge at WordCamp Nice."
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XS"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "S"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "M"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "L"
+msgstr ""
