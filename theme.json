@@ -39,6 +39,7 @@
       "padding": true,
       "margin": true,
       "spacingSizes": [
+        { "slug": "20", "size": "0.25rem", "name": "XXS" },
         { "slug": "30", "size": "0.5rem", "name": "XS" },
         { "slug": "40", "size": "1rem", "name": "S" },
         { "slug": "50", "size": "1.5rem", "name": "M" },
